@@ -1,0 +1,14 @@
+{
+    "dataset_path": "sample_2.csv",
+    "add_interaction": true,
+    "interaction_name": "speedXspeed",
+    "interact_var1": "speed",
+    "interact_var2": "speed",
+    "preprocessing_methods": [
+        3,
+        1
+    ],
+    "model_type": "logistic_regressions",
+    "output_dir": "./output_dir/1008_2119/",
+    "description": "testing LR and weight-speed interactions on storms dataset"
+}

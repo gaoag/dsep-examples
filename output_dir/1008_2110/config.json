@@ -1,0 +1,14 @@
+{
+    "dataset_path": "sample.csv",
+    "add_interaction": true,
+    "interaction_name": "weightXspeed",
+    "interact_var1": "weight",
+    "interact_var2": "speed",
+    "preprocessing_methods": [
+        1,
+        2
+    ],
+    "model_type": "logistic_regressions",
+    "output_dir": "./output_dir/1008_2110/",
+    "description": "testing LR and weight-speed interactions on Dylans dataset"
+}
